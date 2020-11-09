@@ -1,0 +1,92 @@
+[
+	{
+		"id": "1",
+		"question":"How much data does an integer take on a 64 bit computer?",
+		"one":"1 byte",
+		"two":"2 bytes",
+		"three": "3 bytes",
+		"four": "4 bytes",
+		"ans": "4 bytes"
+	},
+	{
+		"id": "2",
+		"question":"How much data would the following take: int[] arr = malloc(sizeof(int)*20)",
+		"one":"4 bytes",
+		"two":"20 bytes",
+		"three": "80 bytes",
+		"four": "120 bytes",
+		"ans": "80 bytes"
+	},
+	{
+		"id": "3",
+		"question":"How much would you add to a pointer to an array  of doubles to get to the second element?",
+		"one":"2",
+		"two":"4",
+		"three": "8",
+		"four": "16",
+		"ans": "8"
+	},
+	{
+		"id": "4",
+		"question":"Can you set a string pointer to an integer?",
+		"one":"Yes",
+		"two":"No",
+		"three": "Yes but it will always be a compile-time error",
+		"four": "Yes but it will always be a run-time error",
+		"ans": "Yes"
+	},
+	{
+		"id": "5",
+		"question":"If a struct contains an int, a double, and a char how many allignment bytes will be added?",
+		"one":"1 byte",
+		"two":"3 bytes",
+		"three": "8 bytes",
+		"four": "None Needed",
+		"ans": "3 bytes"
+	},
+	{
+		"id": "6",
+		"question":"Which of the following declares a string in C?",
+		"one":"string a = 'hello';",
+		"two":"char[] a = 'hello';",
+		"three": "string a = malloc(sizeof('hello'));",
+		"four": "char a = 'hello';",
+		"ans": "char[] a = 'hello';"
+	},
+	{
+		"id": "7",
+		"question":"What happens when you try to derefrence a deallocated pointer? ",
+		"one":"Can't, it'll be a compile-time error",
+		"two":"Null pointer refrence",
+		"three": "Gives you previous value",
+		"four": "Undefined outcome",
+		"ans": "Undefined outcome"
+	},
+	{
+		"id": "8",
+		"question":"Can you create a pointer of a function?",
+		"one":"Yes",
+		"two":"No",
+		"three": "Only if it returns void",
+		"four": "Only if its a static function",
+		"ans": "Yes"
+	},
+	{
+		"id": "9",
+		"question":"How many mutex locks should generally be used with 2 shared resources between threads?",
+		"one":"1",
+		"two":"2",
+		"three": "5",
+		"four": "Not needed",
+		"ans": "2"
+	},
+	{
+		"id": "10",
+		"question":"what does fork() return when it is in the parent function",
+		"one":"0",
+		"two":"a negative number",
+		"three": "a postive number",
+		"four": "null",
+		"ans": "a postive number"
+	}
+]
