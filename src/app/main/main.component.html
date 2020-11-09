@@ -1,1 +1,26 @@
-<p>main works!</p>
+<body>
+<div>
+    <h2>C Language Concepts Quiz</h2>
+    <h1>Select only one answer for the following questions:</h1>
+
+    <table #qtable id = "qtable" class = "table table-hover" >
+        <tr>
+            <th>Question</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4<th>
+        </tr>
+        <tr *ngFor="let obj of questions">
+                <td>{{obj.question}}</td>
+                <td (click)= "select(obj.id, obj.one, $event)">{{obj.one}}</td>
+                <td (click)= "select(obj.id, obj.two, $event)">{{obj.two}}</td>
+                <td (click)= "select(obj.id, obj.three, $event)">{{obj.three}}</td>
+                <td (click)= "select(obj.id, obj.four, $event)">{{obj.four}}</td>
+        </tr>
+    </table>
+    <hr>
+    <input type = "button" value = "Check Score" (click) = "dispScore()">
+    <div id = "score" class = "jumbotron"></div>
+</div>
+</body>

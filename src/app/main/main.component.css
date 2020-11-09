@@ -1,0 +1,14 @@
+td {
+    border: dotted;
+}
+
+body{
+    background-image: url("../../assets/background.jpg");
+}
+.active{
+    background-color: rgb(250, 214, 8);
+}
+
+#score {
+    font-size: 50px;
+}
